@@ -1,6 +1,0 @@
-AgroDirecto - Semillero UMBSoft
-1. Instalar Node.js (version LTS): https://nodejs.org
-2. En esta carpeta abrir una terminal y ejecutar: npm install
-3. Iniciar el sitio: npm start  y abrir http://localhost:3000
-   Gestor de prueba: gestor@demo.co / Demo12345
-4. Exportar la base de datos (entrega): npm run export -> database/agrodirecto_export.sql

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo | Sin intermediarios</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/estilos-v2.css" rel="stylesheet"></head><body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<nav class="navbar navbar-expand-sm barra" aria-label="Principal"><div class="container">
+<a class="navbar-brand fw-bold" href="index.html">Sin intermediarios</a>
+<ul class="navbar-nav ms-auto flex-row gap-3">
+<li class="nav-item"><a class="nav-link" href="index.html" aria-current="page">Catálogo</a></li>
+<li class="nav-item"><a class="nav-link" href="acceso.html">Acceder</a></li>
+<li class="nav-item"><a class="nav-link" href="panel.html">Panel del gestor</a></li>
+</ul></div></nav>
+<main id="contenido" class="container">
+<section class="portada"><h1>Compra directo al productor y mira cuánto le llega</h1>
+<p>Cada producto muestra su precio y la parte que recibe quien lo cultivó, comparada con el precio habitual con intermediarios.</p>
+<ul class="chips"><li>Precio justo a la vista</li><li>Liviana para celulares básicos</li><li>Accesible para todos</li></ul></section>
+<form class="filtros row g-3 align-items-end mb-3" role="search" onsubmit="return false">
+<div class="col-12 col-md-6"><label class="form-label" for="buscar">Buscar producto o productor</label><input id="buscar" type="search" class="form-control" placeholder="Ej: papa"></div>
+<div class="col-12 col-md-4"><label class="form-label" for="categoria">Categoría</label><select id="categoria" class="form-select"><option value="">Todas</option><option>Hortalizas</option><option>Frutas</option><option>Tubérculos</option><option>Granos</option></select></div></form>
+<p id="conteo" class="meta mb-3" aria-live="polite"></p>
+<div id="catalogo" class="row g-3"></div>
+</main>
+<footer><div class="container">Prototipo del semillero UMBSoft · UMB. Precios de referencia: DANE (SIPSA). Versión 2.</div></footer>
+<script src="js/app-v2.js"></script></body></html>
